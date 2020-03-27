@@ -30,6 +30,7 @@
   * 10086
   * 航旅纵横
   * 海阔影视
+  * Titanium Backup Add-on
 
 ### 感谢
 - [rx-block-unbrowser](https://github.com/Kr328/rx-block-unbrowser)

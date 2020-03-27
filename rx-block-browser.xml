@@ -285,4 +285,17 @@
             <scheme name="https" />
         </intent-filter>
     </prescription>
+    <!-- Titanium Backup Add-on -->
+    <prescription type="activity" package="com.keramidas.TitaniumBackupAddon" class="com.keramidas.TitaniumBackup.apiBackupRestore.DummyActivity" sender="other">
+        <intent-filter>
+            <action name="android.intent.action.SEND" />
+            <action name="android.intent.action.SENDTO" />
+            <action name="android.intent.action.BROWSABLE" />
+            <cat name="android.intent.category.DEFAULT" />
+            <scheme name="sms" />
+            <scheme name="smsto" />
+            <scheme name="mms" />
+            <scheme name="mmsto" />
+        </intent-filter>
+    </prescription>
 </prescriptions>
